@@ -64,11 +64,10 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- jstl -->
+        <!-- JSTL -->
         <dependency>
-            <groupId>jstl</groupId>
+            <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
-            <version>1.2</version>
         </dependency>
 
         <!-- tomcat jasper -->
