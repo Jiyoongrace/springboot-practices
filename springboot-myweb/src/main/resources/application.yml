@@ -3,6 +3,18 @@ spring:
   application:
     name: myweb
 
+    devtools:
+      livereload:
+      enabled: true
+
+  thymeleaf:
+    check-template-location: true
+    mode: HTML
+    prefix: classpath:templates/
+    suffix: .html
+    view-names: th/*
+    cache: false
+
   mvc:
     view:
       prefix: /WEB-INF/views/
