@@ -12,6 +12,7 @@ spring:
     mode: HTML
     prefix: classpath:templates/
     suffix: .html
+    encoding: UTF-8
     view-names: th/*
     cache: false
 
